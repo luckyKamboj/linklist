@@ -1,0 +1,31 @@
+AND operator :
+
+    A    B     A & B
+    0    0      0
+    0    1      0
+    1    0      0
+    1    1      1
+
+Conclusion:
+1: A & 1  = A
+
+Or operator :
+
+    A    B     A | B
+    0    0      0
+    0    1      1
+    1    0      1
+    1    1      1
+
+XOR operator :
+
+    A    B     A ^ B
+    0    0      0
+    0    1      1
+    1    0      1
+    1    1      0
+
+Conclusion:
+1: A ^ 1  = compliment of A
+2: A ^ A  = 0
+3: A ^ 0  = A
