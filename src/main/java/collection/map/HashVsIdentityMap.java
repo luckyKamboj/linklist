@@ -11,8 +11,6 @@ public class HashVsIdentityMap {
         Map<String, String> identityMap = new IdentityHashMap<>();
         identityMap.put("1","11");
 
-        java.util.Spliterators
-
         // checks elements from string constant pool
         System.out.println(hashMap.containsKey("1"));                               // true
         System.out.println(identityMap.containsKey("1"));                           // true
